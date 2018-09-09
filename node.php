@@ -1,12 +1,12 @@
 <?php
-    class node{
+    class Node{
         public $next = null ;
-        public $value ;
+        public $value  ;
 
         public function __construct($val,$n)
         {
             $this->next = $n ;
-            $this->value ;
+            $this->value = $val ;
         }
 
     }
