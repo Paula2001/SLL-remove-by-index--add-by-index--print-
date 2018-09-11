@@ -3,9 +3,9 @@
         public $next = null ;
         public $value  ;
 
-        public function __construct($val,$n)
+        public function __construct($val)
         {
-            $this->next = $n ;
+
             $this->value = $val ;
         }
 
